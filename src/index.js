@@ -179,7 +179,6 @@ BigQuery.mergeSchemaWithRows_ = BigQuery.prototype.mergeSchemaWithRows_ = functi
       }
       case 'INTEGER':
       case 'INT64': {
-        value = parseInt(value, 10);
         break;
       }
       case 'RECORD': {
