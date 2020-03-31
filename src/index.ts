@@ -324,7 +324,6 @@ export class BigQuery extends common.Service {
         }
         case 'INTEGER':
         case 'INT64': {
-          value = Number(value);
           break;
         }
         case 'NUMERIC': {
